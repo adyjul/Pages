@@ -2,12 +2,12 @@
   "name": "project",
   "version": "0.1.0",
   "private": false,
-  "homepage" : "https://adyjul.github.io/Covid-Page",
+  "homepage": "https://adyjul.github.io/adyjul.github.io",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.3",
-    "@testing-library/user-event": "^12.6.2",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.6.3",
     "axios": "^0.21.1",
     "chart.js": "^2.9.4",
     "classnames": "^2.2.6",
@@ -22,8 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
